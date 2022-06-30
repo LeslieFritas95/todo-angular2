@@ -32,3 +32,36 @@ button {
 button:disabled{
  background-color: rgba(220, 20, 60, 0.247);
 }
+
+
+#container-0 ::ng-deep .mat-accent .mat-slider-track-fill {
+  background: green !important;
+}
+
+#container-1 ::ng-deep .mat-accent .mat-slider-track-fill {
+  background: yellow !important;
+}
+
+#container-2 ::ng-deep .mat-accent .mat-slider-track-fill {
+  background: orange !important;
+}
+
+#container-3 ::ng-deep .mat-accent .mat-slider-track-fill {
+  background: red !important;
+}
+
+#container-0 ::ng-deep .mat-accent .mat-slider-thumb {
+  background: green !important;
+}
+
+#container-1 ::ng-deep .mat-accent .mat-slider-thumb {
+  background: yellow !important;
+}
+
+#container-2 ::ng-deep .mat-accent .mat-slider-thumb {
+  background: orange !important;
+}
+
+#container-3 ::ng-deep .mat-accent .mat-slider-thumb {
+  background: red !important;
+}

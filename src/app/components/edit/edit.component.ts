@@ -18,6 +18,9 @@ export class EditComponent implements OnInit {
     priority: 0
   };
 
+
+  color = 'pink'
+
   public id: string | null = ''
 
   constructor(
