@@ -3,7 +3,7 @@
   <mat-card-content class="content">
     <span>Creato il {{todo.creationDate | epochFormatter}}</span>
     <span *ngIf="todo.doneDate">Completato il {{todo.doneDate | epochFormatter}}</span>
-    <mat-chip-list>
+    
       <mat-chip color="accent" selected *ngFor="let tag of todo.tags">#{{tag | uppercase}}</mat-chip>
     </mat-chip-list>
     <div class="divider" [style.backgroundColor]="todo.priority | priorityColor"></div>
